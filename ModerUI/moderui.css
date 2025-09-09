@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding: 0;
     background-color:#3B38A0 ;
+   
+    
+    
 }
 .header{
     background-color:#1A2A80 ;
@@ -25,4 +28,37 @@ li:hover{
     background-color:#3B38A0 ;
     border-radius: 5px;
     transform: scaleX(1);
+}
+.home{
+    background: url(./image/image2.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+   
+}
+.home > h1{
+    text-align: center;
+    color: #06035ddd;;
+    margin: 50px;
+    
+}
+.home >p {
+    text-align: center;
+    color: black;
+    margin: 150px;
+}
+.about{
+    background: white;
+    opacity: 0.5;
+    overflow: hidden;
+
+}
+.about >h2{
+    text-align: center;
+    color: #3B38A0;
+}
+.about >p{
+    text-align: center;
+    color:#124170;
 }

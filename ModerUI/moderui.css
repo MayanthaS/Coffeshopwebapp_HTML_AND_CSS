@@ -39,7 +39,7 @@ li:hover{
 }
 .home > h1{
     text-align: center;
-    color: #06035ddd;;
+    color: white;;
     margin: 50px;
     
 }
@@ -49,14 +49,14 @@ li:hover{
     margin: 150px;
 }
 .about{
-    background: white;
-    opacity: 0.5;
+    background: gray;
+    opacity: 0.8;
     overflow: hidden;
 
 }
 .about >h2{
     text-align: center;
-    color: #3B38A0;
+    color: white;
 }
 .about >p{
     text-align: center;
@@ -104,4 +104,39 @@ li:hover{
     opacity: 0.6;
     border-radius: 5px;
 }
+.contact{
+    opacity: 0.5;
+   
+}
+.contact-us{
+    color: white;
+    text-align: center;
+     
+}
+address{
+    color: white;
+    padding: 10px;
+    
+}
+main{
+    float: left;
+}
+img{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.frm{
+    float:right;
+    
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.main{
+    text-align: center  ;
+}
+
 

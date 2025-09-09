@@ -1,4 +1,28 @@
 body{
     margin: 0;
     padding: 0;
+    background-color:#3B38A0 ;
+}
+.header{
+    background-color:#1A2A80 ;
+    overflow: hidden;
+}
+header{
+    float: left;
+    color: white;
+}
+nav{
+    float: right;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    color: white;
+}
+li:hover{
+    color: black;
+    background-color:#3B38A0 ;
+    border-radius: 5px;
+    transform: scaleX(1);
 }

@@ -141,6 +141,12 @@ input , textarea{
     border-radius: 5px;
     margin: 5px;
 }
+.footer{
+    text-align: center;
+    background-color: rgb(95, 10, 10);
+    opacity: 0.5;
+    overflow: hidden;
+}
 
 
 

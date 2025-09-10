@@ -25,6 +25,16 @@ li{
 
 .heading{
     margin: 150px;
+    animation: heading;
+    animation-duration: 4s;
+}
+@keyframes heading{
+    0%{
+        transform: translateY(150px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
 a{
      text-decoration: none;
@@ -81,7 +91,17 @@ p{
 /*about*/
 .about{
     display: flex;
-    justify-content:space-between;;
+    justify-content:space-between;
+    animation: about;
+    animation-duration: 4s;
+}
+@keyframes about{
+    0%{
+        transform: translateX(150px);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
 .about-photo >img{
    width: 300px;
@@ -92,7 +112,16 @@ p{
 h2{
     text-align: center;
     color: white;
-
+    animation: h2;
+    animation-duration: 4s;
+}
+@keyframes h2{
+    0%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 .para1{
     color: white;

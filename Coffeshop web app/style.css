@@ -22,10 +22,7 @@ li{
     display: inline;
     font-size: 20px;   
 }
-.heading{
-    float: left;
-   
-}
+
 .heading{
     margin: 150px;
 }
@@ -34,7 +31,7 @@ a{
      color: white;
      cursor: pointer;
      padding: 5px;
-    margin: 5px;
+     margin: 5px;
 }
 a:hover{
     background-color: chocolate;
@@ -45,6 +42,9 @@ a:hover{
 span{
     font-family:cursive;
     color: yellow;
+}
+.home{
+    text-align: center;
 }
 
 h2{
@@ -59,7 +59,7 @@ p{
     padding: 10px;
 }
 .btn-1{
- background-color: rgb(207, 2, 2);
+ background-color: chocolate;
  padding: 10px;
  border-radius: 15px;
  color: white;
@@ -74,8 +74,42 @@ p{
  border-radius: 15px;
 }
 .btn-2:hover{
-     background-color: rgb(207, 2, 2);
+     background-color: chocolate;
       color: white;
 }
 
 /*about*/
+.about{
+    display: flex;
+    justify-content:space-between;;
+}
+.about-photo >img{
+   width: 300px;
+   opacity: 0.5;
+}
+
+
+h2{
+    text-align: center;
+    color: white;
+
+}
+.para1{
+    color: white;
+    margin: 30px;
+}
+/*menu*/
+.menu-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+img{
+    width: 150px;
+}
+.menu-box-1{
+    flex-basis: 28%;
+
+}
+
+

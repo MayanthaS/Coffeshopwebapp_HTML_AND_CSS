@@ -30,7 +30,7 @@ li{
 }
 @keyframes heading{
     0%{
-        transform: translateY(150px);
+        transform: translateY(100px);
     }
     100%{
         transform: translateY(0px);
@@ -131,11 +131,24 @@ h2{
 .menu-content{
     display: flex;
     gap: 10px;
+    padding: 20px;
     justify-content: space-between;
+    animation: menu-content;
+    animation-duration: 4s;
+}
+@keyframes menu-content{
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 img{
     width: 150px;
+    
 }
+
 .gallery{
     align-items: center;
 }

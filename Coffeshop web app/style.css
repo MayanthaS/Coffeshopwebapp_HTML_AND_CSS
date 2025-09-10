@@ -116,6 +116,33 @@ img{
     padding:50px ;
     
 }
+.contact {
+    background-color: rgb(95, 10, 10);
+    opacity: 0.5;
+    overflow: hidden;
+
+   
+}
+.contact >h2 ,p, address{
+     color: white;
+}
+
+.main{
+    padding: 15px;
+    float: left;
+}
+.aside{
+    float: right;
+    padding-right: 15px;
+}
+input , textarea{
+    background-color:white;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
 
 
 

@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: rgb(106, 1, 1);  
+}
+.header{
+    background-color: rgb(95, 10, 10);
+    overflow: hidden;
+     
+}
+.logo{
+    color: white;
+    float: left;
+   
+}
+.nav {
+    float: right;
+    
+    
+    
+}
+li{
+    list-style: none;
+    display: inline;
+    font-size: 20px;   
+}
+a{
+     text-decoration: none;
+     color: white;
+     cursor: pointer;
+     padding: 5px;
+    margin: 5px;
+}
+a:hover{
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 5px;
+}

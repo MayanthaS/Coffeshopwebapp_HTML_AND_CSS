@@ -138,7 +138,7 @@ h2{
 }
 @keyframes menu-content{
     0%{
-        transform: translateY(100px);
+        transform: translateY(50px);
     }
     100%{
         transform: translateY(0);
@@ -151,6 +151,16 @@ img{
 
 .gallery{
     align-items: center;
+    animation: gallery;
+    animation-duration: 4s;
+}
+@keyframes gallery{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 .gallery> img{
     width: 250px;
